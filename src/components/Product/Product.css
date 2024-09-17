@@ -1,0 +1,32 @@
+.product {
+  margin: 0;
+  overflow: auto;
+}
+
+.product__price {
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-right: auto;
+  align-self: flex-start;
+  margin-bottom: 10px;
+}
+
+.product__button-wrap {
+  align-self: flex-end;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
